@@ -1,0 +1,17 @@
+intvag n = 7;  // n es el numero de fibonacci que se quiere obtener
+intvag a = 0; // primer numero de fibonacci
+intvag b = 1; // segundo numero de fibonacci
+intvag contador = 0; // contador para el bucle
+intvag temp = 0; // variable temporal para almacenar el resultado
+
+ifvag (n == 0) {
+    a;
+} elsevag {
+    whilevag (contador < n - 1) {
+        temp = a + b;
+        a = b;
+        b = temp;
+        contador = contador + 1;
+    } endvag
+    b;
+} endvag

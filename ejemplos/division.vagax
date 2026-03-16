@@ -1,0 +1,31 @@
+intvag a = 20;
+intvag b = 5;
+intvag opcion = 4;
+
+// 1 = suma
+// 2 = resta
+// 3 = multiplicacion
+// 4 = division
+// 5 = modulo
+
+ifvag (opcion == 1) {
+    a + b;
+} elsevag {
+    ifvag (opcion == 2) {
+        a - b;
+    } elsevag {
+        ifvag (opcion == 3) {
+            a * b;
+        } elsevag {
+            ifvag (opcion == 4) {
+                a / b;
+            } elsevag {
+                ifvag (opcion == 5) {
+                    a % b;
+                } elsevag {
+                    0;
+                } endvag
+            } endvag
+        } endvag
+    } endvag
+} endvag

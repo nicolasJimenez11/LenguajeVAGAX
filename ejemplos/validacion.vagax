@@ -1,0 +1,15 @@
+intvag x = 10;
+floatvag y = 2.5;
+
+ifvag (x > 5 && y < 3) {
+    "ok";
+} elsevag {
+    "no";
+} endvag
+
+functionvag sumar(a, b) {
+    intvag c = a + b;
+    returnvag c;
+} endvag
+
+sumar(4, 6);

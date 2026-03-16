@@ -1,0 +1,18 @@
+intvag n = 7; // n es el numero que se quiere verificar si es primo
+intvag i = 2; // i es el divisor
+boolvag esPrimo = sisas; // esPrimo es una variable que almacena el resultado
+
+ifvag (n <= 1) {
+    esPrimo = nokas;
+} elsevag {
+    whilevag (i < n) {
+        ifvag (n % i == 0) {
+            esPrimo = nokas;
+            i = n;
+        } endvag
+
+        i = i + 1;
+    } endvag
+} endvag
+
+esPrimo;
